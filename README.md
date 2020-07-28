@@ -3,7 +3,7 @@
 ## install
 
 ```
-ln -s ~/.zshrc.aws-load-profile dot-zshrc.aws-load-profile
+ln -s $(pwd)/dot-zshrc.aws-load-profile ~/.zshrc.aws-load-profile
 echo "source ~/.zshrc.aws-load-profile" >> ~/.zshrc
 source ~/.zshrc
 ```
